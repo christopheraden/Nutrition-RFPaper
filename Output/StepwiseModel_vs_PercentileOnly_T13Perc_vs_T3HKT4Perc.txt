@@ -1,0 +1,13 @@
+Comparing stepwise Regression model of T3HK and T4 Percentile against a model that includes onlyT4 Percentile. Outcome is T13 Percentile.
+
+Analysis of Variance Table
+
+Model 1: T13_Percentile ~ T4_Percentile
+Model 2: T13_Percentile ~ T4_Percentile + T3HKQ9 + T3HKQ11 + T3HKQ14 + 
+    T3HKQ20 + T3HKQ27 + T3HKQ28 + T3HKQ30 + T3HKQ33 + T3HKQ35 + 
+    T3HKQ36 + T3HKQ40 + T3HKQ41 + T3HKQ43
+  Res.Df   RSS Df Sum of Sq      F    Pr(>F)    
+1     88 30948                                  
+2     75 17936 13     13012 4.1855 3.401e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
